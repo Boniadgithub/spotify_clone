@@ -9,6 +9,10 @@ function Navbar() {
             <img className='w-8 bg-black p-2 rounded-2xl cursor-pointer'src={assets.arrow_left}alt=""/>
             <img className='w-8 bg-black p-2 rounded-2xl cursor-pointer'src={assets.arrow_right}alt=""/>
          </div>
+         <div className='flex items-center gap-4'>
+              <p className='bg-white text-black text-[15px] px-4 py-1 rounded-2xl hidden md:block'>Explore premium</p>
+              <p className='bg-black py-1 px-3 rounded-2xl text-[15px]'>Install app </p>
+         </div>
       </div>
     </>
   )
