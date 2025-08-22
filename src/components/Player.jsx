@@ -36,7 +36,7 @@ function player() {
           <div className='w-20 bg-slate-50 h-1 rounded'>
 
           </div>
-          <img className='w-4' src={assets.mini_player_icon} alt=''/>
+          <img className='w-5' src={assets.mini_player_icon} alt=''/>
           <img className='w-4' src={assets.zoom_icon} alt=''/>
           
         </div>
