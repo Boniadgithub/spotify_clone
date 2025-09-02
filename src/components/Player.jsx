@@ -1,35 +1,39 @@
 import React from 'react'
-import { assets, songsData } from '../assets/assets'
+import { assets } from '../assets/assets'
 import { useContext } from 'react'
 import { PlayerContext } from '../context/PlayerContext'
 
 function player() {
 
-  const {seekBar,seekBg, playStatus,play,pause}= useContext(PlayerContext);
+  const {track, seekBar,seekBg, playStatus,play,pause,time}= useContext(PlayerContext);
   return (
     <div className='h-[7%] bg-black flex  justify-items-center  text-white px-2 gap-2'>
       <div className='hidden  lg:flex items-center gap-4'>
-      <img className="w-14 rounded-md"src={songsData[0].image} alt=""/>
+      <img className="w-14 rounded-md"src={track.image} alt=""/>
        <div>
-        <p>{songsData[0].name}</p>
-        <p>{songsData[0].desc.slice(0,12)}</p>
+        <p>{track.name}</p>
+        <p>{track.desc.slice(0,12)}</p>
         </div>
         </div>
         <div className='flex flex-col items-center gap-1 m-auto'>
           <div className='flex gap-4'>
                  <img className='w-4 cursor-pointer' src={assets.shuffle_icon} alt=""/> 
                   <img className='w-4 cursor-pointer' src={assets.prev_icon} alt=""/> 
-                   <img onClick={play}className='w-4 cursor-pointer' src={assets.play_icon} alt=""/> 
-                   <img onClick={pause}className='w-4 cursor-pointer' src={assets.pause_icon} alt=""/>
+                  {playStatus
+                  ?<img onClick={pause}className='w-4 cursor-pointer' src={assets.pause_icon} alt=""/>
+                  :<img onClick={play}className='w-4 cursor-pointer' src={assets.play_icon} alt=""/> 
+                   
+                  }
+                   
                     <img className='w-4 cursor-pointer' src={assets.next_icon} alt=""/> 
                      <img className='w-4 cursor-pointer' src={assets.loop_icon} alt=""/>    
           </div>
           <div className='flex gap-2 items-center'>
-             <p>1:09</p>
+             <p>{time.currentTime.minutes}:{time.currentTime.seconds}</p>
              <div ref={seekBg} className='w-[60vw] max-w-[500px]  bg-gray-300 rounded-full cursor-pointer'>
               <hr ref={seekBar} className='h-1 border-none w-0 bg-green-800 rounded-full'></hr>
             </div>
-            <p>3:20</p>
+            <p>{time.TotalTime.minutes}:{time.TotalTime.seconds}</p>
           </div>
         </div>
         <div className='hidden lg:flex items-center gap-2 opacity-75'>

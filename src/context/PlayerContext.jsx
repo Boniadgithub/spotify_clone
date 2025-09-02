@@ -14,7 +14,7 @@ const PlayerContextProvider = (props) => {
             seconds:0,
             minutes:0
         },
-        totalTime:{
+        TotalTime:{
             seconds:0,
             minutes:0
         }
