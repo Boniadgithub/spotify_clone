@@ -27,12 +27,14 @@ const PlayerContextProvider = (props) => {
         audioRef.current.pause();
         setPlayStatus(false);
      }
-
-     const playWithId = async   (id)=>{
-        await setTrack(songsData[id]);
+      const playWithId = async()=>{
+        setTrack(songsData[id]);
         await audioRef.current.play();
         setPlayStatus(true);
-     }
+      }
+
+
+     
       useEffect (()=>{
         setTimeout(()=>{
             audioRef.current.ontimeupdate=()=>{
@@ -65,7 +67,8 @@ const PlayerContextProvider = (props) => {
         play,
         pause,
         playWithId
-        // Add any state or functions you want to share across components
+        
+        
     }
     return (
         <PlayerContext.Provider value={contextValue}>

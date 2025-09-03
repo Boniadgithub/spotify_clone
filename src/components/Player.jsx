@@ -3,11 +3,11 @@ import { assets } from '../assets/assets'
 import { useContext } from 'react'
 import { PlayerContext } from '../context/PlayerContext'
 
-function player() {
+function Player() {
 
-  const {track, seekBar,seekBg, playStatus,play,pause,time}= useContext(PlayerContext);
+  const {track, seekBar,seekBg, playStatus,play,pause,time }= useContext(PlayerContext);
   return (
-    <div className='h-[7%] bg-black flex  justify-items-center  text-white px-2 gap-2'>
+      <div className='h-[7%] bg-black flex  justify-items-center  text-white px-2 gap-2'>
       <div className='hidden  lg:flex items-center gap-4'>
       <img className="w-14 rounded-md"src={track.image} alt=""/>
        <div>
@@ -53,4 +53,4 @@ function player() {
   )
 }
 
-export default player
+export default Player
