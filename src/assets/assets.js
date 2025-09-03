@@ -41,6 +41,8 @@ import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import  song4 from  './song4.mp3'
+import img1_webp from './img1.webp'
 
 export const assets = {
     bell_icon,
@@ -73,7 +75,7 @@ export const albumsData = [
     {   
         id:0,
         name: "Top 50 Global",
-        image: img8,
+        image: img1_webp,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#2a4365"
     },
@@ -119,7 +121,7 @@ export const songsData = [
         id:0,
         name: "Song One",
         image: img1,
-        file:song1,
+        file:song4,
         desc:"Put a smile on your face with these happy tunes",
         duration:"3:00"
     },
