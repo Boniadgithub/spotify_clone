@@ -3,12 +3,12 @@ import  { songsData } from "../assets/assets";
 
 export const PlayerContext = createContext();
 
-const PlayerContextProvider = (props) => {
+const PlayerContextProvider = (props) => {      
     const audioRef = useRef();
     const seekBg =useRef();
     const seekBar =useRef();
     const [track ,setTrack] =useState(songsData[0]);
-    const [playStatus ,setPlayStatus] =useState(false);
+    const [playStatus ,setPlayStatus] =useState(false); 
     const [time ,setTime] =useState({
         currentTime:{
             seconds:0,
@@ -28,7 +28,7 @@ const PlayerContextProvider = (props) => {
         setPlayStatus(false);
      }
       const playWithId = async()=>{
-        setTrack(songsData[id]);
+        await setTrack(songsData[id]);
         await audioRef.current.play();
         setPlayStatus(true);
       }
@@ -46,7 +46,7 @@ const PlayerContextProvider = (props) => {
         },
         TotalTime:{
            seconds:Math.floor(audioRef .current.duration% 60),
-            minutes:Math.floor(audioRef .current.duration / 60)
+           minutes:Math.floor(audioRef .current.duration / 60)
         }
     })
             }
