@@ -206,8 +206,8 @@ export const songsData = [
         desc:"beegziabher enemekalen new mezmur",
         duration:"2:35"
     },
-    {
+    
        
-    }
+    
 
 ]

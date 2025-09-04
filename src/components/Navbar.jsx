@@ -21,7 +21,7 @@ function Navbar() {
       </div>
       <div className='flex items-center gap-2 mt-4'>
            <p className='bg-white text-black item-center rounded-2xl px-4 py-1 cursor-pointer'>All</p>
-           <p className='bg-black text-white item-center rounded-2xl px-4 py-1 cursor-pointer'>Music</p> 
+           <p className='bg-black text-white item-center rounded-2xl px-4 py-1 cursor-pointer'>Mezmur</p> 
            <p className='bg-black text-white item-center rounded-2xl px-4 py-1 cursor-pointer'>Podcasts</p>  
       </div>
     </>
