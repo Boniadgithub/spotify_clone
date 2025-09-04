@@ -45,6 +45,11 @@ import  song4 from  './song4.mp3'
 import img1_webp from './img1.webp'
 import img_png from './img.png'
 import image_png from './image.png'
+import abel_jpg from './abel.jpg'
+import tedi_jpg from './tedi.jpg'
+import sara_jpg from './sara.jpg'
+import sebl_jpg from './sebl.jpg'
+import dawit_jpg from './dawit.jpg'
 
 export const assets = {
     bell_icon,
@@ -76,43 +81,43 @@ export const assets = {
 export const albumsData = [
     {   
         id:0,
-        name: "Firaol mosisa ",
-        image: img1_webp,
-        desc:"orthodox mezmur",
+        name: "Zemari seblewengel ",
+        image: sebl_jpg,
+        desc:"orthodox tewahedo hager nat",
         bgColor:"#2a4365"
     },
     {   
         id:1,
-        name: "Emebete",
-        image: img_png,
+        name: "Zemari Dawit Beqele",
+        image: dawit_jpg,
         desc:"Ye emebetachen mezmur",
         bgColor:"#22543d"
     },
     {   
         id:2,
-        name: "mertenesh mezmur",
+        name: "Zemari mertenesh ",
         image: image_png,
-        desc:"Anurognal chereneteh mezmur",
+        desc:"keber balegn neger mezmur",
         bgColor:"#742a2a"
     },
     {   
         id:3,
-        name: "Trending Global",
-        image: img16,
-        desc:"Your weekly update of the most played tracks",
+        name: "Zemari Abel Mekbeb ",
+        image: abel_jpg,
+        desc:"Abel mekbebe zeq beye lamesgenew ",
         bgColor:"#44337a"
     },
     {   
         id:4,
-        name: "Mega Hits,",
-        image: img11,
-        desc:"Your weekly update of the most played tracks",
+        name: "Zemari Tewdros yosef",
+        image:tedi_jpg ,
+        desc:"Yelal andabte tewdros mezmur",
         bgColor:"#234e52"
     },
     {   
         id:5,
-        name: "Happy Favorites",
-        image: img15,
+        name: "Zemarit sara mengestu",
+        image:sara_jpg,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#744210"
     }
