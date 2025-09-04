@@ -64,7 +64,9 @@ import saramengestu_mp3 from './saramengestu.mp3'
 import yenegeta_mp3 from './yenegeta.mp3'
 import bemen_mp3 from './bemen.mp3'
 import ferezer_mp3 from './ferezer.mp3'
-
+import yabeqal_mp3 from './yabeqal.mp3'
+import yegerm_mp3 from './yegerm.mp3'
+import ermi_mp3 from './ermi.mp3'
 
 
 export const assets = {
@@ -152,7 +154,7 @@ export const songsData = [
         id:1,
         name: "mezmur two",
         image: kedam_jpg,
-        file:song2,
+        file: yabeqal_mp3,
         desc:"kesemayu kefeta kef bela tsiyon",
         duration:"2:20"
     },
@@ -168,7 +170,7 @@ export const songsData = [
         id:3,
         name: "mezmur Four",
         image: Abel2_jpg,
-        file:song1,
+        file:ermi_mp3,
         desc:"bedelachenen yetewkelen mezmur",
         duration:"2:50"
     },
@@ -200,7 +202,7 @@ export const songsData = [
         id:7,
         name: "mezmur Eight",
         image: imagecopy4_png,
-        file:song2,
+        file:yegerm_mp3,
         desc:"beegziabher enemekalen new mezmur",
         duration:"2:35"
     },
