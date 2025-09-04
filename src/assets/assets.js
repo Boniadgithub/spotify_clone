@@ -43,6 +43,7 @@ import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
 import  song4 from  './song4.mp3'
 import img1_webp from './img1.webp'
+import img_png from './img.png'
 
 export const assets = {
     bell_icon,
@@ -74,15 +75,15 @@ export const assets = {
 export const albumsData = [
     {   
         id:0,
-        name: "Top 50 Global",
+        name: "Firaol mosisa ",
         image: img1_webp,
-        desc:"Your weekly update of the most played tracks",
+        desc:"orthodox mezmur",
         bgColor:"#2a4365"
     },
     {   
         id:1,
         name: "Top 50 India",
-        image: img9,
+        image: img_png,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#22543d"
     },
