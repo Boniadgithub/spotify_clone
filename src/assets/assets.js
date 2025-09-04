@@ -44,6 +44,7 @@ import song3 from  './song3.mp3'
 import  song4 from  './song4.mp3'
 import img1_webp from './img1.webp'
 import img_png from './img.png'
+import image_png from './image.png'
 
 export const assets = {
     bell_icon,
@@ -82,16 +83,16 @@ export const albumsData = [
     },
     {   
         id:1,
-        name: "Top 50 India",
+        name: "Emebete",
         image: img_png,
-        desc:"Your weekly update of the most played tracks",
+        desc:"Ye emebetachen mezmur",
         bgColor:"#22543d"
     },
     {   
         id:2,
-        name: "Trending India",
-        image: img10,
-        desc:"Your weekly update of the most played tracks",
+        name: "mertenesh mezmur",
+        image: image_png,
+        desc:"Anurognal chereneteh mezmur",
         bgColor:"#742a2a"
     },
     {   
