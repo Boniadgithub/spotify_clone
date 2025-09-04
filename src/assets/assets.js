@@ -50,6 +50,22 @@ import tedi_jpg from './tedi.jpg'
 import sara_jpg from './sara.jpg'
 import sebl_jpg from './sebl.jpg'
 import dawit_jpg from './dawit.jpg'
+import seblewengel_jpg from './seblewengel.jpg'
+import kedam_jpg from './kedam.jpg'
+import enden_jpg from './enden.jpg'
+import Abel2_jpg from './Abel2.jpg'
+import tewd_jpg from './tewd.jpg'
+import imagecopy_png from './imagecopy.png'
+import imagecopy3_png from './imagecopy3.png'
+import imagecopy4_png from './imagecopy4.png'
+import imagecopy5_png from './imagecopy5.png'
+import mezmur1_mp3 from './mezmur1.mp3'
+import saramengestu_mp3 from './saramengestu.mp3'
+import yenegeta_mp3 from './yenegeta.mp3'
+import bemen_mp3 from './bemen.mp3'
+import ferezer_mp3 from './ferezer.mp3'
+
+
 
 export const assets = {
     bell_icon,
@@ -81,42 +97,42 @@ export const assets = {
 export const albumsData = [
     {   
         id:0,
-        name: "Zemari seblewengel ",
+        name: "Zem seblewengel ",
         image: sebl_jpg,
         desc:"orthodox tewahedo hager nat",
         bgColor:"#2a4365"
     },
     {   
         id:1,
-        name: "Zemari Dawit Beqele",
+        name: "Zem Dawit Beqele",
         image: dawit_jpg,
         desc:"Ye emebetachen mezmur",
         bgColor:"#22543d"
     },
     {   
         id:2,
-        name: "Zemari mertenesh ",
-        image: image_png,
+        name: "Zem ferezer desalegn",
+        image: imagecopy5_png,
         desc:"keber balegn neger mezmur",
         bgColor:"#742a2a"
     },
     {   
         id:3,
-        name: "Zemari Abel Mekbeb ",
+        name: "Zem Abel Mekbeb ",
         image: abel_jpg,
         desc:"Abel mekbebe zeq beye lamesgenew ",
         bgColor:"#44337a"
     },
     {   
         id:4,
-        name: "Zemari Tewdros yosef",
+        name: "Zem Tewdros yosef",
         image:tedi_jpg ,
         desc:"Yelal andabte tewdros mezmur",
         bgColor:"#234e52"
     },
     {   
         id:5,
-        name: "Zemarit sara mengestu",
+        name: "Zem sara mengestu",
         image:sara_jpg,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#744210"
@@ -126,66 +142,66 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Song One",
-        image: img1,
-        file:song4,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "Mezmur One",
+        image: seblewengel_jpg,
+        file: saramengestu_mp3,
+        desc:"mereshalew belegn sel dengel mariam",
         duration:"3:00"
     },
     {
         id:1,
-        name: "Song Two",
-        image: img2,
+        name: "mezmur two",
+        image: kedam_jpg,
         file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"kesemayu kefeta kef bela tsiyon",
         duration:"2:20"
     },
     {
         id:2,
-        name: "Song Three",
-        image: img3,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "mezmur three",
+        image: enden_jpg,
+        file:bemen_mp3,
+        desc:"Endene yemarkew manen new mezmur",
         duration:"2:32"
     },
     {
         id:3,
-        name: "Song Four",
-        image: img4,
+        name: "mezmur Four",
+        image: Abel2_jpg,
         file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"bedelachenen yetewkelen mezmur",
         duration:"2:50"
     },
     {
         id:4,
-        name: "Song Five",
-        image: img5,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "mezmur Five",
+        image: tewd_jpg,
+        file:mezmur1_mp3,
+        desc:"ye emebetachen mezmuroch ",
         duration:"3:10"
     },
     {
         id:5,
-        name: "Song Six",
-        image: img14    ,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "mezmur Six",
+        image: imagecopy_png    ,
+        file:yenegeta_mp3,
+        desc:"yene geta mertensh new mezmur",
         duration:"2:45"
     },
     {
         id:6,
-        name: "Song Seven",
-        image: img7,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "mezmur Seven",
+        image: imagecopy3_png,
+        file:ferezer_mp3,
+        desc:"Addis sew new ortho mezmur",
         duration:"2:18"
     },
     {
         id:7,
-        name: "Song Eight",
-        image: img12,
+        name: "mezmur Eight",
+        image: imagecopy4_png,
         file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"beegziabher enemekalen new mezmur",
         duration:"2:35"
     },
     {
